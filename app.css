@@ -1,0 +1,442 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+nav {
+  display: flex;
+  width: 1750px;
+  height: 64px;
+  background-color: #212731;
+  padding: 0;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+nav div {
+  position: relative;
+}
+nav div img {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  margin: 19px 25px;
+}
+nav div input {
+  width: 258px;
+  height: 37px;
+  border-radius: 8px;
+  border: 1px;
+  margin: 14px 20px;
+}
+nav ul {
+  list-style: none;
+  margin: 0 20px;
+  display: flex;
+  color: #D1D6DA;
+  font-size: 14px;
+  line-height: 20px;
+}
+nav ul li {
+  margin: 23px 20px;
+  padding: 0 20px;
+}
+
+main h2 {
+  width: 495px;
+  height: 44px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  color: #2C384A;
+  margin-bottom: 80px;
+}
+main .heading {
+  width: 1006px;
+  margin: auto;
+}
+main .heading h1 {
+  color: #2C384A;
+  padding: 20px;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 60px;
+  border-bottom: 1.33px solid #E1E4E6;
+}
+main .updates {
+  width: 1006px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1.33px solid #E1E4E6;
+}
+main .updates ul {
+  display: flex;
+  list-style: none;
+  margin: 20px 0;
+}
+main .updates ul li {
+  padding-right: 25px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4B5665;
+  display: flex;
+}
+main .updates ul li img {
+  padding-right: 4px;
+  width: 30px;
+  height: 20px;
+  align-items: center;
+}
+main .updates span {
+  margin: 20px;
+  color: #727D87;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  display: flex;
+}
+main .updates span img {
+  padding-left: 2px;
+  width: 20px;
+  height: 20px;
+  align-items: center;
+}
+main .tools {
+  width: 1006px;
+  margin: auto;
+}
+main .tools ul {
+  display: flex;
+  list-style: none;
+}
+main .tools ul li {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 30px 80px 30px 10px;
+  color: #4B5665;
+}
+main .page {
+  width: 1006px;
+  margin: auto;
+  padding-bottom: 80px;
+}
+main .page ul {
+  display: flex;
+}
+main .page ul li {
+  list-style: none;
+  margin: 0 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #5C6874;
+}
+main .serviceContent {
+  width: 1006px;
+  margin: auto;
+  display: flex;
+  padding: 30px 0;
+  margin-bottom: 60px;
+}
+main .serviceContent .imgOfService {
+  width: 200px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+main .serviceContent .imgOfService .productImage {
+  width: 141px;
+  height: 103px;
+  width: 141px;
+  height: 103px;
+}
+main .serviceContent .imgOfService span {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #626E79;
+}
+main .serviceContent .aboutService {
+  width: 500px;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+main .serviceContent .aboutService .intro {
+  font-size: 16px;
+  width: 490px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #4B5665;
+  padding-bottom: 8px;
+}
+main .serviceContent .aboutService .intro span {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+main .serviceContent .aboutService .mainHighlights {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #2C384A;
+  padding: 4px 0;
+  margin: 4px 0;
+}
+main .serviceContent .aboutService .highlights {
+  width: 483px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 10px;
+  color: #4B5665;
+}
+main .serviceContent .aboutService .showMore {
+  width: 150px;
+  height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 10px 0;
+  color: #1B88F4;
+  display: flex;
+}
+main .serviceContent .aboutService .showMore img {
+  padding: 4px;
+  margin: 2px;
+  width: 20px;
+  height: 20px;
+  align-items: center;
+}
+main .serviceContent .review {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 80px;
+}
+main .serviceContent .review .grid {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 100px;
+  width: 135px;
+  height: 118px;
+  border-radius: 12px;
+  background-color: #F3F9FF;
+}
+main .serviceContent .review .grid .rating {
+  width: 50px;
+  height: 48px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+}
+main .serviceContent .review .grid .comment {
+  width: 80px;
+  height: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+main .serviceContent .review .grid .star img {
+  width: 90px;
+  height: 30px;
+}
+main .serviceContent .review .button {
+  margin-top: 60px;
+}
+main .serviceContent .review .button button {
+  color: white;
+  text-align: center;
+  width: 232px;
+  height: 48px;
+  border-radius: 12px;
+  background-color: #1B88F4;
+  padding: 10px 70px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  border: none;
+}
+main h2 {
+  width: 1006px;
+  margin: auto;
+}
+main .discountOffers {
+  display: flex;
+  width: 1006px;
+  margin: auto;
+}
+main .discountOffers .relateddeals .deals {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 20px 90px 20px;
+}
+main .discountOffers .relateddeals .deals .productImage {
+  width: 141px;
+  height: 103px;
+  margin: 50px 0;
+}
+main .discountOffers .relateddeals .deals .productImage img {
+  width: 141px;
+  height: 103px;
+}
+main .discountOffers .relateddeals .deals .offers .discountOffer {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  width: 100%;
+  height: 20px;
+  color: #074786;
+  background-color: #F2F4F7;
+  height: 28px;
+  border-radius: 8px;
+  padding: 2px 4px;
+  margin: 0 2px;
+}
+main .discountOffers .relateddeals .deals .productName {
+  width: 107px;
+  height: 24px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #626E79;
+}
+main .discountOffers .relateddeals .deals .productInfo {
+  width: 284px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #626E79;
+}
+main .discountOffers .relateddeals .deals .price {
+  text-align: left;
+  margin-bottom: 10px;
+}
+main .discountOffers .relateddeals .deals .price .discountedPrice {
+  width: 71px;
+  height: 28px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #5C6874;
+  margin: 0 4px;
+}
+main .discountOffers .relateddeals .deals .price .actualPrice {
+  width: 48px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #9FA9B3;
+  margin: 0 4px;
+}
+main .discountOffers .relateddeals .deals .price .discount {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  width: 63px;
+  height: 20px;
+  color: #EF4C5D;
+  margin: 0 4px;
+}
+main .discountOffers .relateddeals .deals button {
+  color: white;
+  text-align: center;
+  width: 292px;
+  height: 48px;
+  border-radius: 12px;
+  background-color: #1B88F4;
+  padding: 10px 70px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  border: none;
+}
+main .signUpInfo {
+  width: 1006px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+main .signUpInfo h1 {
+  width: 398px;
+  height: 88px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  color: #5C6874;
+}
+main .signUpInfo .signUpButton {
+  margin-bottom: 60px;
+}
+main .signUpInfo .signUpButton input {
+  width: 348px;
+  height: 52px;
+  border-radius: 12px 0px 0px 12px;
+  border: none;
+}
+main .signUpInfo .signUpButton button {
+  width: 97px;
+  height: 52px;
+  border-radius: 0px 12px 12px 0px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.6999999881px;
+  text-align: center;
+  border: none;
+  background-color: #1B88F4;
+  color: #FFFFFF;
+  margin: 2px;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  height: 452px;
+  background: #212731;
+  flex-wrap: wrap;
+}
+.footer .categories {
+  color: #FFFFFF;
+  padding: 40px;
+}
+.footer .categories ul {
+  list-style: none;
+  margin: 10px 0;
+}
+.footer .categories ul li {
+  margin: 20px 0;
+}
+.footer .contact {
+  color: #FFFFFF;
+  margin: 40px;
+}
+.footer .contact ul {
+  list-style: none;
+  margin: 10px 0;
+}
+.footer .contact ul li {
+  margin: 20px 0;
+}/*# sourceMappingURL=app.css.map */
